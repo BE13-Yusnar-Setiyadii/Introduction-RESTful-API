@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "67f8878b-0804-4c3f-b4f3-3b1724079d34",
+		"name": "Problem1-Postman-TargetAPI2-swapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24530448"
+	},
+	"item": [
+		{
+			"name": "get-people",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swapi}}people/",
+					"host": [
+						"{{swapi}}people"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-films",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swapi}}films/",
+					"host": [
+						"{{swapi}}films"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-starships",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swapi}}starships/",
+					"host": [
+						"{{swapi}}starships"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-planets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swapi}}planets/",
+					"host": [
+						"{{swapi}}planets"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-species",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swapi}}species/",
+					"host": [
+						"{{swapi}}species"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
